@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
+    <!-- <link rel="stylesheet" href="responsive.css"> -->
 
     <link href="https://fonts.googleapis.com/css2?family=Jersey+15&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
@@ -33,34 +34,34 @@
 <body>
     <!-- <div class="view"> -->
     <header>
-        <div class="header">
+        <!-- <div class="header"> -->
 
-            <div class="logo" data-aos="zoom-out-right" data-aos-duration="350">
+            <div class="logo" >
                 <img src="logo2.jpg" alt="logo">
             </div>
             <div class="hamburger">
                 <i class="fa-solid fa-bars fa-lg" id="ham" style="color: #ffffff;" onclick="fun()"></i>
             </div>
 
-            <div class="element" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="350">
+            <div class="element">
                 <a href="#home">HOME</a>
                 <a href="#about">ABOUT</a>
                 <a href="#skill">SKILLS</a>
                 <a href="#project">PROJECT</a>
-                <a href="#contact">CONTACT</a>
+                <a href="#contact">CONTACT </a>
             </div>
-        </div>
+        <!-- </div> -->
     </header>
 
     <main id="home">
 
-        <div class="main-content" data-aos="fade-right" >
+        <div class="main-content" data-aos="fade-right">
 
             <h1>Hi, I'm <span class="name">Aman Verma</span></h1>
             <h1>Web Developer</h1>
             <p>I'm persuing my dregee in Saranathan college of engineering, TRICHY</p>
 
-            <div class="main-button">
+            <div class="main-button"><blockquote></blockquote>
                 <a href="mailto:amanverma@gmail.com">
                     <button>
                         Download CV
@@ -68,7 +69,7 @@
                 </a>
             </div>
         </div>
-        <div class="main-img" data-aos="fade-left" >
+        <div class="main-img" data-aos="fade-left">
         </div>
     </main>
     <!-- </div> -->
@@ -91,7 +92,8 @@
         <div class="about-img">
         </div>
 
-        <div class="about-content" data-aos="fade-left">
+        <!-- data-aos="fade-left" -->
+        <div class="about-content" >
             <h1>So,who am i ?</h1>
             <p>
                 As a student learning web development, I’ve gained skills in HTML, CSS, and JavaScript. HTML helps me
@@ -128,18 +130,14 @@
             </p>
         </div>
 
-        <div class="skill-card"  >
+        <div class="skill-card">
 
             <div class="card1 card" data-aos="flip-left">
-
-
                 <div class="skill-card1-shade">
                     <img src="skill-app-logo.png" alt="">
                     <h1>App development</h1>
                 </div>
-
                 <div class="skill-card1-content">
-
                     <p>I learned web development through online courses, coding practice, building projects, and seeking
                         help from forums and communities.</p>
                     <div class="skill-card1-content-img">
@@ -148,19 +146,13 @@
                         <img src="Database-Logo-.png" alt="">
                     </div>
                 </div>
-
-
             </div>
 
-
-
             <div class="card2 card" data-aos="flip-left">
-
                 <div class="skill-card2-shade">
                     <img src="skill-web-logo.PNG" alt="">
                     <h1>Web development</h1>
                 </div>
-
                 <div class="skill-card2-content">
 
                     <p>I learned web development through online courses, coding practice, building projects, and seeking
@@ -170,56 +162,59 @@
             </div>
 
             <div class="card3 card" data-aos="flip-left">
-
+                <div class="skill-card2-shade">
+                    <img src="skill-web-logo.PNG" alt="">
+                    <h1>Web development</h1>
+                </div>
+                <div class="skill-card2-content">
+                    <p>I learned web development through online courses, coding practice, building projects, and seeking
+                        help from forums and communities.</p>
+                    <img src="skill-html-css-logo.PNG" alt="">
+                </div>
             </div>
 
         </div>
     </section>
+
 
     <section class="project" id="project">
         <h1>PROJECT</h1>
     </section>
 
 
-
-
-
-
     <section class="contact" id="contact">
-
         <!-- <h1>Let's get in touch</h1> -->
-
         <div class="contact-container1">
             <h1 data-aos="fade-right">Let's get in touch</h1>
         </div>
+        <hr>
         <div class="contact-container2">
-            <div class="contact-box1">
+            <div class="contact-box1 Cbox" data-aos="fade-up">
                 <!-- <h1>Let's get in touch</h1> -->
                 <div class="contact-box1-logo">
                     <a href="" class="insta"><i class="fa-brands fa-instagram"></i></a>
                     <a href=""><i class="fa-brands fa-twitter"></i></a>
                     <a href=""><i class="fa-brands fa-github"></i></a>
                     <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
-
                 </div>
-
-
                 <h1>Contact me on</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et repellendus dignissimos veniam earum
                     cumque asperiores impedit aliquid ipsam? Facilis reiciendis repellat repellendus unde fugiat
                     debitis.</p>
-
             </div>
-            <div class="contact-box2">
+
+            <hr>
+
+            <div class="contact-box2 Cbox" data-aos="fade-up">
                 <i class="fa-solid fa-envelope"></i>
                 <p class="contact-box-p">amanverma282003@gmail.com</p>
                 <p>
                     "Seeking hope and connections—discover my portfolio filled with passion and creativity. I’d love to
-                    collaborate and create something amazing together. Let’s connect!"</p>
+                    collaborate and create something amazing together. Let’s connect!"</p>  
             </div>
-            <div class="contact-box3">
+            <hr>
+            <div class="contact-box3 Cbox" data-aos="fade-up">
                 <h1>Message Me</h1>
-
                 <form action="">
                     <!-- <p>NAME</p> -->
                     <input type="text" name="" id="" placeholder="Enter Name">
@@ -231,12 +226,12 @@
                 </form>
                 <a href="mailto:amanverms282003@gmail.com">
                     <button>
-                        Send &#x2709;
+                        Send 
                     </button>
                 </a>
-
             </div>
         </div>
+        
     </section>
 
 
@@ -244,11 +239,13 @@
     <script>
         AOS.init();
     </script>
-    <script>
-        function fun(){
-            document.getElementsByClassName("element")[0].style.
-        }
-    </script>
+   
 </body>
-
+<script>
+    function fun() {
+        const menu = document.querySelector('.element');
+        menu.classList.toggle('show');
+    }
+    
+</script>
 </html>
